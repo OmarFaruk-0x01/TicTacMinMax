@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="boradDiv">
+      <button onclick="startGame()">Reset</button>
+
+      <table class="board">
+        <tr>
+          <td
+            class="cell"
+            id="0"
+            style="border-top: none; border-left: none"
+          ></td>
+          <td class="cell" id="1" style="border-top: none"></td>
+          <td
+            class="cell"
+            id="2"
+            style="border-top: none; border-right: none"
+          ></td>
+        </tr>
+        <tr>
+          <td class="cell" id="3" style="border-left: none"></td>
+          <td class="cell" id="4"></td>
+          <td class="cell" id="5" style="border-right: none"></td>
+        </tr>
+        <tr>
+          <td
+            class="cell"
+            id="6"
+            style="border-bottom: none; border-left: none"
+          ></td>
+          <td class="cell" id="7" style="border-bottom: none"></td>
+          <td
+            class="cell"
+            id="8"
+            style="border-bottom: none; border-right: none"
+          ></td>
+        </tr>
+      </table>
+      <h3 class="endmessage">You Win</h3>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
